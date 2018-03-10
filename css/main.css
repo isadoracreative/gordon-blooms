@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand {
+  font-family: 'Old Standard TT', serif;
+  text-transform: uppercase;
+}
+.jumbotron {
+  background-size: cover;
+  height: 300px;
+}
+#header-home {
+  background-image: url("https://raw.githubusercontent.com/isadoracreative/gordon-blooms/master/images/roses.jpg");
+}
+#header-home h1, #header-home h2 {
+    text-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+h1 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+h3 {
+  font-family: 'Old Standard TT', serif;
+  font-style: italic;
+  font-size: 2.1rem;
+}
+h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .025rem;
+}
+h5 {
+  font-size: .9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .015rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .jumbotron {
+    height: 350px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 450px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
