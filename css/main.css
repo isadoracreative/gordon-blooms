@@ -43,6 +43,10 @@ h5 {
   text-transform: uppercase;
   letter-spacing: .015rem;
 }
+#map {
+  background-size: cover;
+  height: 300px;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
